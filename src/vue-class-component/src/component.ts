@@ -221,23 +221,23 @@ function forwardStaticMembers (
 
 
 
-let arr = [1, 2, 3 , 4];
-arr.forEach(item => {
-  console.log(0);
-  if (item === 1) {
-    return;
-  }
-  console.log(item);
-  if (item === 2) {
-    return;
-  }
-  console.log(item);
-  if (item === 3) {
-    return;
-  }
-  console.log(item);
-  if (item === 4) {
-    return;
-  }
-  console.log(item);
-})
+// let arr = [1, 2, 3 , 4];
+// arr.forEach(item => {
+//   console.log(0);
+//   if (item === 1) {
+//     return;
+//   }
+//   console.log(item);
+//   if (item === 2) {
+//     return;
+//   }
+//   console.log(item);
+//   if (item === 3) {
+//     return;
+//   }
+//   console.log(item);
+//   if (item === 4) {
+//     return;
+//   }
+//   console.log(item);
+// })

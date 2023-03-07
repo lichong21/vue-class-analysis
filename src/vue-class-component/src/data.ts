@@ -60,19 +60,19 @@ export function collectDataFromConstructor (vm: Vue, Component: VueClass<Vue>) {
 }
 
 
-function App() {
-  this.name = 'lll';
-  this.age = 23;
-}
+// function App() {
+//   this.name = 'lll';
+//   this.age = 23;
+// }
 
-App.prototype.eat = function () {
-  console.log('aaaaaaaaaa');
-}
+// App.prototype.eat = function () {
+//   console.log('aaaaaaaaaa');
+// }
 
-let app = new App();
-app.eat();
+// let app = new App();
+// app.eat();
 
-App.prototype.eat = function() {
-  console.log('bbbbbbbb')
-}
-app.eat();
+// App.prototype.eat = function() {
+//   console.log('bbbbbbbb')
+// }
+// app.eat();

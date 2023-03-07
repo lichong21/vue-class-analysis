@@ -20,7 +20,7 @@ export interface VueDecorator {
 /**
  * 创建装饰器
  * @param factory 自定义装饰器的工厂函数
- * @returns 
+ * @returns 返回一个新的装饰函数
  */
 export function createDecorator (factory: (options: ComponentOptions<Vue>, key: string, index: number) => void): VueDecorator {
   /**
